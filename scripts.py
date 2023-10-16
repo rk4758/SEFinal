@@ -4,13 +4,13 @@ import math
 class test_CalcMethods(unittest.TestCase):
 
     def test_calculateSum(self):
-        self.assertEqual(self.calc.add(5, 25, 90))
+        self.assertEqual(calc.add(5, 25, 90))
         
     def test_calculateMean(self):
-        self.assertEqual(self.calc.mean(5, 25, 90), 40)
+        self.assertEqual(calc.mean(5, 25, 90), 40)
         
     def test_calcuateGcd(self):
-        self.assertEqual(self.calc.gcd(5, 25, 90), 5)        
+        self.assertEqual(calc.gcd(5, 25, 90), 5)        
                         
 class test_InRange(unittest.TestCase):
     #input within range of parameters
